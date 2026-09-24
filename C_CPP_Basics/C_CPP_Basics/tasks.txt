@@ -1,0 +1,109 @@
+====================================================
+   EASY PRACTICE TASKS - C & C++ BASICS
+====================================================
+Try to solve each task yourself using the matching
+topic file as a reference. Keep it simple - these
+are beginner-friendly tasks.
+
+---------------- C TASKS ----------------
+
+01_hello_world:
+   Task: Print your own name and college/school name using printf.
+
+02_variables_datatypes:
+   Task: Declare variables for your age (int), height (float),
+         and first letter of your name (char), then print them.
+
+03_operators:
+   Task: Take two numbers and print their sum, difference,
+         product, and remainder.
+
+04_input_output:
+   Task: Ask the user to enter their name and age using scanf,
+         then print "Hi <name>, you are <age> years old."
+
+05_conditional_statements:
+   Task: Take a number as input and check whether it is
+         positive, negative, or zero using if-else.
+
+06_loops:
+   Task: Print numbers from 1 to 10 using a for loop,
+         then print their sum.
+
+07_arrays:
+   Task: Create an array of 5 numbers and find the largest
+         number in it using a loop.
+
+08_strings:
+   Task: Take a name as input and print its length using strlen().
+
+09_functions:
+   Task: Write a function "square(int n)" that returns n*n,
+         then call it for 3 different numbers.
+
+10_pointers:
+   Task: Declare a variable and a pointer to it. Change the
+         value using the pointer and print the updated value.
+
+11_structures:
+   Task: Create a structure "Book" with title and price,
+         then create one Book variable and print its details.
+
+12_file_handling:
+   Task: Write your name and age into a file called "me.txt",
+         then read and print the content of that file.
+
+---------------- C++ TASKS ----------------
+
+01_hello_world:
+   Task: Print "I am learning C++" and your favorite hobby using cout.
+
+02_variables_datatypes:
+   Task: Declare an int, a float, and a bool variable, then
+         print all of them.
+
+03_operators:
+   Task: Take two numbers and check (using operators) if the
+         first number is greater, smaller, or equal to the second.
+
+04_input_output:
+   Task: Take two numbers as input using cin and print their sum.
+
+05_conditional_statements:
+   Task: Take a student's marks as input and print their
+         grade using if-else (A/B/C/F).
+
+06_loops:
+   Task: Print the multiplication table of any number (1 to 10)
+         using a while loop.
+
+07_arrays:
+   Task: Create a vector of 5 numbers, add one more number to it
+         using push_back(), then print all elements.
+
+08_strings:
+   Task: Take a sentence as input (use getline) and print its
+         length and the first word only.
+
+09_functions:
+   Task: Write an overloaded function "area()" - one version for
+         a square (1 parameter) and one for a rectangle (2 parameters).
+
+10_pointers_references:
+   Task: Create a variable and a reference to it. Change the
+         value using the reference and print the original variable.
+
+11_structures:
+   Task: Create a structure "Movie" with title and rating, add
+         a display() function inside it, then use it.
+
+12_classes_objects:
+   Task: Create a class "Person" with name and age (private),
+         a constructor, and a function introduce() that prints
+         "Hi, I am <name> and I am <age> years old." Create two
+         Person objects and call introduce() on both.
+
+====================================================
+TIP: Compile C files with:  gcc filename.c -o output
+TIP: Compile C++ files with: g++ filename.cpp -o output
+====================================================
